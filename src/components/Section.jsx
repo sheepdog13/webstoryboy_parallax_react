@@ -4,8 +4,8 @@ const Section = (props) => {
 
     const desc = props.desc
     return (  
-        <section className="section1 content__item">
-            <span className="content__item__num">0{num}</span>
+        <section className={`section${num} content__item`}>
+            <span className="content__item__num">{num}</span>
             <h2 className="content__item__title">section{num}</h2>
             <figure className="content__item__imgWrap">
                 <div style={{backgroundImage: `url(https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg${num}.jpg)`}} className="content__item__img"></div>

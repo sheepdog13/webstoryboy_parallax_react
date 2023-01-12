@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='footerInfo'>
                 <h3>제이쿼리</h3>
                 <ul>
-                    <li className='active'><a href="parallaxEffect01-javascript.html">1</a></li>
+                    <li><a href="parallaxEffect01-javascript.html">1</a></li>
                     <li><a href="parallaxEffect02-javascript.html">2</a></li>
                     <li><a href="parallaxEffect03-javascript.html">3</a></li>
                     <li><a href="parallaxEffect04-javascript.html">4</a></li>
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='footerInfo'>
                 <h3>자바스크립트</h3>
                 <ul>
-                    <li><a href="parallaxEffect01-javascript.html">1</a></li>
+                    <li className='active'><a href="parallaxEffect01-javascript.html">1</a></li>
                     <li><a href="parallaxEffect02-javascript.html">2</a></li>
                     <li><a href="parallaxEffect03-javascript.html">3</a></li>
                     <li><a href="parallaxEffect04-javascript.html">4</a></li>

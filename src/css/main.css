@@ -18,3 +18,61 @@
     width: 100%;
     overflow: hidden;
 }
+
+ /* info */
+ .paraScroll {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+.paraInfo {
+    position: fixed;
+    left: 20px;
+    bottom: 70px;
+    z-index: 1000;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 1.8;
+    border-radius: 10px;
+}
+.paraInfo li {
+    list-style: none;
+}
+
+.paraNav {
+    position: fixed;
+    right: 20px; top: 20px;
+    z-index: 1000;
+    background: rgba(0,0,0,.4);
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+.paraNav li {
+    display: inline-block;
+    list-style: none;
+}
+.paraNav li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    width: 30px; height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.paraNav li.active a {
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+}
